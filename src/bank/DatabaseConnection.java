@@ -8,7 +8,6 @@ public class DatabaseConnection {  // Declaring a public class named DatabaseCon
     
     // Defining a constant URL for the database connection string.
     // This includes the database type (MySQL), hostname (localhost), port (3306), and database name (BankDB).
-    // The URL also contains user credentials (username: root, password: srivardhan@123) for authentication.
     private static final String URL = "jdbc:mysql://localhost:3306/BankDB?user=root&password=srivardhan@123";
 
     // Static initializer block: This block runs once when the class is loaded.
